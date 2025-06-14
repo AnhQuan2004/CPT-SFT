@@ -6,8 +6,7 @@ model_args:
   full_finetuning: True
 
 datasets:
-  sources:
-    - "jasong03/medical-merged-en"
+  sources: "jasong03/medical-merged-en"
   splits: "train"
   preprocessing:
     num_proc: 4
